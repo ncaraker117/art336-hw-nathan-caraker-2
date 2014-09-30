@@ -73,7 +73,7 @@ h4 + p {
 }
 
 i, em {
-    @include body-font-italic; 
+    @include body-font-semibold; 
 }
 
 b, strong {
@@ -84,7 +84,7 @@ a {
     background-color: $background-color;
     border-radius: 4px;
     color: $color;
-    @include body-font-italic;
+    @include body-font-semibold;
     padding: 0 4px 2px 4px;
     transition: background-color 300ms linear;
     transition: color 300ms linear;
